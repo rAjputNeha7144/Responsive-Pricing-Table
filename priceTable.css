@@ -41,7 +41,7 @@
 }
 
 /* Basic div start */
-.lists {
+.cards {
     width: 300px;
     background-color: rgb(243, 243, 243);
     border-radius: 5px;
@@ -50,13 +50,13 @@
     transition: 0.3s ease;
 }
 
-.lists ul {
+.cards ul {
     list-style: none;
     padding-left: 0px;
     margin-top: 20px;
 }
 
-.lists ul li {
+.cards ul li {
     text-align: center;
     padding:10px;
     font-size: 20px;
@@ -66,7 +66,7 @@
     margin-right: 30px;
 }
 
-.lists h2 {
+.cards h2 {
     text-align: center;
     padding-bottom: 5px;
     font-size: 30px;
@@ -76,19 +76,19 @@
     margin: 10px 25px;
 }
 
-.lists h1 {
+.cards h1 {
     text-align: center;
     padding-top: 12px;
     font-size: 60px;
     color: rgb(18, 18, 59);
 }
 
-.lists :hover{
+.cards :hover{
     transform: translateY(-10px);
     transition: 0.3s ease;
 }
 
-.lists button {
+.cards button {
     width: auto;
     background-color: rgb(243, 243, 243);
     text-align: center;
