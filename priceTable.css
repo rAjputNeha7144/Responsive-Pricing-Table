@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0%;
+}
+
+.main {
+    min-height: 100vh;
+    background-color: rgb(196, 230, 243);
+    background-image: url('bg2.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pricing h3 {
+    max-width: 20vh;
+    margin: auto;
+    padding: 10px;
+    color: rgb(43, 55, 67);
+    font-family: "Poppins", sans-serif;
+}
+
+.annual {
+    max-width: 20vh;
+    margin: auto;
+    padding: 10px;
+    color: rgb(1, 102, 122);
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+}
+
+/* container of divs */
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: stretch;
+    margin-top: 70px;
+}
+
+/* Basic div start */
+.lists {
+    width: 300px;
+    background-color: rgb(243, 243, 243);
+    border-radius: 5px;
+    margin-left: 28px;
+    box-shadow: 2px 2px 10px rgb(113, 108, 108);
+    transition: 0.3s ease;
+}
+
+.lists ul {
+    list-style: none;
+    padding-left: 0px;
+    margin-top: 20px;
+}
+
+.lists ul li {
+    text-align: center;
+    padding:10px;
+    font-size: 20px;
+    color: rgb(79, 79, 101);
+    border-bottom: 2px solid rgb(46, 46, 53);
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.lists h2 {
+    text-align: center;
+    padding-bottom: 5px;
+    font-size: 30px;
+    color: rgb(50, 50, 75);
+    box-shadow: 2px solid rgb(61, 57, 57);
+    border-bottom: 2px solid rgb(46, 46, 53);
+    margin: 10px 25px;
+}
+
+.lists h1 {
+    text-align: center;
+    padding-top: 12px;
+    font-size: 60px;
+    color: rgb(18, 18, 59);
+}
+
+.lists :hover{
+    transform: translateY(-10px);
+    transition: 0.3s ease;
+}
+
+.lists button {
+    width: auto;
+    background-color: rgb(243, 243, 243);
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 100px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    color: rgb(79, 79, 101);
+    box-shadow: 2px 2px 2px rgba(113, 108, 108, 0.2);
+}
+
+button:hover {
+    background-color: rgb(33, 33, 44);
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+@media (max-width:900px){
+    .pricing-container{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
