@@ -5,7 +5,7 @@ A modern and responsive pricing table built using HTML and CSS.
 ## 📌 Project Overview
 This project is a simple frontend UI component that displays different pricing plans in a clean card layout. 
 I built this project to practice Flexbox layout, spacing, and creating clean responsive UI components.
-# Fatures
+# Features
 - Responsive layout using Flexbox
 - Clean card-based design
 - Smooth hover effects with CSS transitions
